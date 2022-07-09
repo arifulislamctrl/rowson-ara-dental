@@ -92,7 +92,7 @@ nav{
 .services{
     display: flex;
     margin-top: 10%;
-    background-color: white;
+    justify-content: center;
 }
 .block-element{
     display: flex;
@@ -101,7 +101,30 @@ nav{
 }
 .work-details{
     width: 40%;
-    margin-left: 50px;
+    margin-left: 70px;
+}
+.work-details h1{
+    text-align: center;
+    line-height: 2.2;
+}
+.work-details span{
+    font-weight: 600;
+    line-height: 4.3;
+}
+.work-details p{
+    line-height: 1.6;
+}
+.work-details a{
+    background-color:rgb(3, 83, 83) ;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.5;
+    margin-top: 10px;
+}
+.work-details a:hover{
+    background-color:rgb(12, 163, 163) ;
 }
 .center{
     width: 200px;
@@ -113,6 +136,12 @@ nav{
     box-sizing: border-box;
     box-shadow: 0 0 10px gray;
     border-radius: 20px;
+    transition-timing-function:ease-in-out,ease-in ;
+    transition-duration: 0.2s, 0.2s;
+}
+.center:hover{
+    border:1px solid rgb(3, 83, 83);
+    
 }
 .center img{
     width: 50px;
@@ -122,4 +151,70 @@ nav{
 }
 .center P{
     text-align: center;
+}
+.new-patiant{
+    background-color: rgb(3, 83, 83);
+    text-align: center;
+    padding: 20px 60px;
+    border-radius: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 7%;
+    margin-bottom: 8%;
+    transition: 0.5s;
+}
+.new-patiant:hover{
+    background-color: rgb(19, 121, 121);
+}
+.new-patiant h1{
+    font-weight: 700;
+    color: white;
+}
+.new-patiant span{
+    color: white;
+}
+.new-patiant p{
+    color: #977d7d;
+}
+.team{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.team p{
+    margin-bottom: 3%;
+}
+.team a{
+    color: white;
+    background-color: rgb(3, 83, 83);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 50px;
+    transition: 0.3;
+}
+.team a:hover{
+    background-color: rgb(19, 121, 121);
+}
+.team-member{
+    display: flex;
+    margin-bottom: 10%;
+}
+.dctr{
+    width: 30%;
+    text-align: center;
+    background-color: #dddada;
+    border: 1px solid rgb(3, 83, 83);
+    margin-left: 2%;
+    border-radius: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px gainsboro;
+    transition: 0.3;
+}
+.dctr:hover{
+    background-color: white;
+}
+.dctr img{
+    width: 220px;
+}
+#monu{
+    width: 265px;
 }
