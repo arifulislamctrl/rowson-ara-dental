@@ -1,0 +1,92 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+.top-section{
+    
+    position: relative;
+    height: 100vh;
+    background-color: black;   
+}
+.top-section::before{
+    content: "";
+    top: 0;
+    bottom: 0%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    background-image: url(images/be_a_denist.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    opacity: 0.3;
+}
+nav{
+    display: flex;
+    width: 85%;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+}                   
+.logo{
+    font-family: Magneto;
+    color: white;
+    font-size: 33px;
+}
+.header{
+    display: flex;
+   
+}
+.header li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 20px;
+    position: relative;
+
+}
+.header li::after {
+    position: absolute;
+}
+.header li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.appointment{
+    padding: 10px 40px;
+    background-color: rgb(3, 83, 83);
+    border-radius: 25px;
+    transition: 0.2;
+}
+.appointment:hover{
+    background-color:rgb(12, 163, 163) ;   
+}
+
+.intro{
+    color: white;
+    margin-left: 55%;
+    margin-top: 17%;
+    display: inline-block;
+}
+.intro h2{
+    font-size: 35px;
+}
+.intro h2 span{
+    font-weight: 800;
+    font-size: 50px;
+}
+.intro a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    background-color: rgb(3, 83, 83);
+    border-radius: 25px;
+    position: relative;
+    transition: 0.3;
+}
+.intro a:hover{
+    background-color:rgb(12, 163, 163) ;
+    position: absolute;
+    
+}
