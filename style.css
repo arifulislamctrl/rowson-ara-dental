@@ -87,6 +87,39 @@ nav{
 }
 .intro a:hover{
     background-color:rgb(12, 163, 163) ;
-    position: absolute;
-    
+    position: absolute; 
+}
+.services{
+    display: flex;
+    margin-top: 10%;
+    background-color: white;
+}
+.block-element{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%
+}
+.work-details{
+    width: 40%;
+    margin-left: 50px;
+}
+.center{
+    width: 200px;
+    height: 170px;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+}
+.center img{
+    width: 50px;
+}
+.icons{
+    text-align: center;
+}
+.center P{
+    text-align: center;
 }
