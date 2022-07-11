@@ -32,7 +32,7 @@ nav{
 .logo{
     font-family: Magneto;
     color: white;
-    font-size: 33px;
+    font-size: 2.06em;
 }
 .header{
     display: flex;
@@ -40,8 +40,8 @@ nav{
 }
 .header li{
     list-style: none;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-right: 3.125em;
+    margin-top: 1.25em;
     position: relative;
 
 }
@@ -54,9 +54,9 @@ nav{
     text-transform: uppercase;
 }
 .appointment{
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     background-color: rgb(3, 83, 83);
-    border-radius: 25px;
+    border-radius: 1.56em;
     transition: 0.2;
 }
 .appointment:hover{
@@ -70,18 +70,18 @@ nav{
     display: inline-block;
 }
 .intro h2{
-    font-size: 35px;
+    font-size: 2.187em;
 }
 .intro h2 span{
     font-weight: 800;
-    font-size: 50px;
+    font-size: 3.125em;
 }
 .intro a{
     text-decoration: none;
     color: white;
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     background-color: rgb(3, 83, 83);
-    border-radius: 25px;
+    border-radius: 1.56em;
     position: relative;
     transition: 0.3;
 }
@@ -116,26 +116,26 @@ nav{
 }
 .work-details a{
     background-color:rgb(3, 83, 83) ;
-    padding: 10px 40px;
+    padding: 0.625em 2.5em;
     color: white;
     text-decoration: none;
-    border-radius: 40px;
+    border-radius: 2.5em;
     transition: 0.5;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 .work-details a:hover{
     background-color:rgb(12, 163, 163) ;
 }
 .center{
-    width: 200px;
-    height: 170px;
+    width: 12.5em;
+    height: 10.6em;
     border: 1px solid lightgray;
-    margin-left: 20px;
-    margin-bottom: 25px;
-    padding-top: 25px;
+    margin-left: 1.25em;
+    margin-bottom: 1.56em;
+    padding-top: 1.56em;
     box-sizing: border-box;
     box-shadow: 0 0 10px gray;
-    border-radius: 20px;
+    border-radius: 1.25em;
     transition-timing-function:ease-in-out,ease-in ;
     transition-duration: 0.2s, 0.2s;
 }
@@ -144,7 +144,7 @@ nav{
     
 }
 .center img{
-    width: 50px;
+    width: 3.125em;
 }
 .icons{
     text-align: center;
@@ -155,8 +155,8 @@ nav{
 .new-patiant{
     background-color: rgb(3, 83, 83);
     text-align: center;
-    padding: 20px 60px;
-    border-radius: 100px;
+    padding: 1.25em 3.75em;
+    border-radius: 6.25em;
     margin-left: 8%;
     margin-right: 8%;
     margin-top: 7%;
@@ -188,7 +188,7 @@ nav{
     background-color: rgb(3, 83, 83);
     text-decoration: none;
     padding: 0.625em 2.5em;
-    border-radius: 50px;
+    border-radius: 3.125em;
     transition: 0.3;
 }
 .team a:hover{
